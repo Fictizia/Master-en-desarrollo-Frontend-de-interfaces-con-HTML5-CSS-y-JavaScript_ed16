@@ -4,13 +4,13 @@
 # Master en desarrollo Frontend de interfaces con HTML5 CSS y JavaScript
 ### Programación JavaScript, Manejo del DOM, Aplicaciones interactivas con AJAX, Vanilla
 
-Esta parte del curso está pensado para que sus alumnos descubran el desarrollo con JavaScript nativo y adquieran las capacidades necesarias para crear profesionalmente sitios web dinámicos a medida de las necesidades de cada proyecto.
+Esta parte del master está pensado para que sus alumnos descubran el desarrollo con JavaScript nativo y adquieran las capacidades necesarias para crear profesionalmente sitios web dinámicos a medida de las necesidades de cada proyecto.
 
-El objetivo principal de esta parte del curso es que los alumnos aprendan la bases y fundamentos del lenguaje de programación más utilizado en el mundo del desarrollo interactivo. Aprenderán todo sobre los conceptos fundamentales y la lógica de la programación, la manipulación dinámica del DOM y el desarrollo de aplicaciones interactivas usando AJAX.
+El objetivo principal de esta parte del master es que los alumnos aprendan la bases y fundamentos del lenguaje de programación más utilizado en el mundo del desarrollo interactivo. Aprenderán todo sobre los conceptos fundamentales y la lógica de la programación, la manipulación dinámica del DOM y el desarrollo de aplicaciones interactivas usando AJAX.
 
-En este apartado del curso conocerán en profundidad además todo lo necesario para desenvolverse con soltura en un entorno de desarrollo web moderno y con un flujo de trabajo eficiente: control de versiones con Git/GitHub, depuración...
+En este apartado del master conocerán en profundidad además todo lo necesario para desenvolverse con soltura en un entorno de desarrollo web moderno y con un flujo de trabajo eficiente: control de versiones con Git/GitHub, depuración...
 
-Como metodología de trabajo durante el curso, los alumnos desarrollarán como prácticas troncales diversas aplicaciones web que servirán además de repositorio de todo lo aprendido.
+Como metodología de trabajo durante el master, los alumnos desarrollarán como prácticas troncales diversas aplicaciones web que servirán además de repositorio de todo lo aprendido.
 
 **En esta parte del curso aprenderás a...**
 - Desarrollar aplicaciones web a medida, eficientes y sin necesidad de librerías.
@@ -20,7 +20,7 @@ Como metodología de trabajo durante el curso, los alumnos desarrollarán como p
 - Aprender cómo crear proyectos interactivos que requieran de AJAX.
 
 
-Sobre el Curso
+Sobre el master
 =================
 * Horario: Lunes, Miércoles y Viernes de 19h a 22h
 
