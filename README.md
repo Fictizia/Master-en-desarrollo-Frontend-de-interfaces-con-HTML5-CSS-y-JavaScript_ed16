@@ -1,7 +1,7 @@
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
-# [JavaScript para desarrolladores web]
+# Master en desarrollo Frontend de interfaces con HTML5 CSS y JavaScript
 ### Programación JavaScript, Manejo del DOM, Aplicaciones interactivas con AJAX, Vanilla
 
 Esta parte del curso está pensado para que sus alumnos descubran el desarrollo con JavaScript nativo y adquieran las capacidades necesarias para crear profesionalmente sitios web dinámicos a medida de las necesidades de cada proyecto.
