@@ -10,28 +10,28 @@ Valor de su producto
 Proceso de calculo
 
 Valor del primer número:
-    Escribir número 8
-    Leer número 8
+    Escribir número 1
+    Leer número 1
 
 Valor del segundo número:
     Escribir número 2
     Leer número 2
 
 //Summa:
-    resultado = 8+2
-    Escribir "El resultado es", 10
+    resultado = número 1 + número 2
+    Escribir "El resultado es", resultado
 
 //Resta:
-    resultado = 8-2
-    Escribir "El resultado es", 6
+    resultado = número 1 - número 2
+    Escribir "El resultado es", resultado
 
 //Multiplicación:
-    resultado = 8*2
-    Escribir "El resultado es", 16
+    resultado = número 1 * número 2
+    Escribir "El resultado es", resultado
 
 //División:
-    resultado = 8/2
-    Escribir "El resultado es", 4
+    resultado = número 1 / número 2
+    Escribir "El resultado es", resultado
 
 Fin del proceso
 
