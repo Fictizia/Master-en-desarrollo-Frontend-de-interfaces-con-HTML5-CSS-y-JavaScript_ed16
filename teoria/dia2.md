@@ -130,7 +130,9 @@
 	- Versión 5 (Diciembre de 2009)
 	- Versión 5.1 (Diciembre de 2011)
 	- Versión 6 (Junio de 2015)
-	- Versión 7 (En desarrollo)
+	- Versión 7 (Junio de 2016)
+	- Versión 8 (Junio de 2017)
+	- Versión 9 (Junio de 2018)
 
 - **Compatibilidad:**
 	- [ECMA6](https://kangax.github.io/compat-table/es6/)
