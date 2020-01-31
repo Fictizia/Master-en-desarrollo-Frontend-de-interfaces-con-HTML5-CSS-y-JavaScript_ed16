@@ -31,4 +31,4 @@ num2 = prompt ('Introduce el num2 :','');
 /*Suma*/
 
 suma = num1 + num2;
-document.write ('el resultado de la suma de ',num1 ' + ' , num2, 'es', suma);
+document.write ('el resultado de la suma de ',num1, ' + ' , num2, 'es', suma);
