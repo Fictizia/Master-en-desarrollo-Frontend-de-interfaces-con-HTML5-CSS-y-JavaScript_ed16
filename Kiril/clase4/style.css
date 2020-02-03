@@ -1,0 +1,26 @@
+.btn{
+    display: block;
+    position: absolute;
+    top:100px;
+    left: 410px;
+    background-color: rgb(70, 67, 67);
+    border-radius: 10px;
+    border: 2px solir black;
+    font-size: 20px;
+    color: white;
+
+}
+.etiqueta{
+    
+    font-size: 25px;
+    color: black;
+    font-size: xx-large;
+
+}
+.caja{
+    display: block;
+    position: relative;
+    background-color: rgba(136, 204, 228, 0.591);
+    width: 800px;
+    margin: 0 auto;
+}
