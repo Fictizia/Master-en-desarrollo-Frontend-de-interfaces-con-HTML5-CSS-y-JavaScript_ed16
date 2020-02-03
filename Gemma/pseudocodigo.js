@@ -20,3 +20,7 @@
         Escribir 'El resultado es' producto
 
 */
+
+var number = 0;
+var string = 'Soy un string';
+var boolean ='true';
