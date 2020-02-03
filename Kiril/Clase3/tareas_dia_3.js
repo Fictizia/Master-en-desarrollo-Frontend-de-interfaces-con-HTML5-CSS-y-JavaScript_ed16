@@ -21,7 +21,7 @@ multiplicacion = num1 * num2;
 division = num1 / num2;
 resto = num1 % num2;
 
-console.log("La suma de ", num1, "+ ", num2, "es igual a: ", suma);
+console.log ("La suma de ", num1, "+ ", num2, "es igual a: ", suma);
 console.log ( "La resta de ", num1, "- ", num2, "es igual a: ", resta);
 console.log ( "La multiplicación de ", num1, "+ ", num2, "es igual a: ", multiplicacion);
 console.log ("La division de ", num1, "+ ", num2, "es igual a: ", division);
@@ -58,3 +58,6 @@ console.log (num1 === num3); // True,mismo valor y tipo
 console.log (num1 == texto); //False porque el valor no es el mismo
 console.log (num1 == texto1); //True, porque el valor es el mismo, no considera el tipo
 console.log (num1 === texto1); //False, porque el tipo de dato es distinto
+
+/*console.log ('%c num1 ', 'background: #3EBDFF; color: #FFF; font-size:25px;'); Dar estilo*/
+
