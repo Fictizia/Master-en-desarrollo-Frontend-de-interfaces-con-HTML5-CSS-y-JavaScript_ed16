@@ -53,8 +53,8 @@ var texto = "Hola";
 var texto1 = "10";
 var verificacion = true;
 
-num1 == num2; //False, Porque son los 2 numero, no distingue entre entero y decimal
-num1 === num3; // True,mismo valor y tipo 
-num1 == texto; //False porque el valor no es el mismo
-num1 == texto1; //True, porque el valor es el mismo, no considera el tipo
-num1 === texto1; //False, porque el tipo de dato es distinto
+console.log (num1 == num2); //False, Porque son los 2 numero, no distingue entre entero y decimal
+console.log (num1 === num3); // True,mismo valor y tipo 
+console.log (num1 == texto); //False porque el valor no es el mismo
+console.log (num1 == texto1); //True, porque el valor es el mismo, no considera el tipo
+console.log (num1 === texto1); //False, porque el tipo de dato es distinto
