@@ -11,7 +11,8 @@ function esPar (numero){
 
 
 function saludar (Nombre){
-    console.log ("Hola " + Nombre + "!!!");
+    /*console.log ("Hola " + Nombre + "!!!");*/
+    console.log ("Hola " + document.getElementById("name").value );
 }
 
 function calcular (num1, num2){
