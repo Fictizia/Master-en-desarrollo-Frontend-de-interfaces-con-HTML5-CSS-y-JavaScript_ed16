@@ -1,26 +1,48 @@
-.btn{
-    display: block;
-    position: absolute;
-    top:100px;
-    left: 410px;
-    background-color: rgb(70, 67, 67);
-    border-radius: 10px;
-    border: 2px solir black;
-    font-size: 20px;
-    color: white;
-
-}
-.etiqueta{
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-color: grey;
+    }
     
-    font-size: 25px;
-    color: black;
-    font-size: xx-large;
-
-}
-.caja{
-    display: block;
-    position: relative;
-    background-color: rgba(136, 204, 228, 0.591);
-    width: 800px;
-    margin: 0 auto;
-}
+    .btn {
+        display: block;
+        position: absolute;
+        top: 5.1em;
+        left: 21em;
+        background-color: rgb(70, 67, 67);
+        border-radius: 10px;
+        border: 2px solir black;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .titulo {
+        font-size: 2rem;
+        color: blue;
+        width: 230px;
+        margin: 1rem auto;
+    }
+    
+    .etiqueta {
+        font-size: 25px;
+        color: black;
+        font-size: xx-large;
+    }
+    
+    .caja {
+        display: block;
+        position: relative;
+        background-color: rgba(136, 204, 228, 0.591);
+        max-width: 600px;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        border: 1px solid red;
+        padding: 0.5em;
+    }
