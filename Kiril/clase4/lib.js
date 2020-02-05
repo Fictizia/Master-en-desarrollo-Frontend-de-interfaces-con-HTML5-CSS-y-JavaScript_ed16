@@ -12,7 +12,8 @@ function esPar (numero){
 
 function saludar (Nombre){
     /*console.log ("Hola " + Nombre + "!!!");*/
-    console.log ("Hola " + document.getElementById("name").value );
+    console.log ("Hola " + document.getElementById("name").value ); /* Le asignamos el valor de donde procede la informacion dentro de la función, 
+    es decir desde el Id=name  DEL INPUT */
 }
 
 function calcular (num1, num2){
