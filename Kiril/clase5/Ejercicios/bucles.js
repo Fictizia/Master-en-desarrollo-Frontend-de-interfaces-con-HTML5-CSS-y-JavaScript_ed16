@@ -11,6 +11,11 @@ Usar for, while, (do) while.
 
 /*FOR*/
 
+for (var i=0; i<100; i++){
+    console.log("aveces entro en bucle"); 
+}
+
+
 
 /*WHILE*/
 while (true){
