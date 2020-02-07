@@ -29,7 +29,6 @@ do {
    console.log("a veces entro en bucle...");
 } while (bucleMar < 100);
 
-
 /*
 Ejercicio 2:
 Realiza un bucle que imprima por consola los números pares del 1 al 100
