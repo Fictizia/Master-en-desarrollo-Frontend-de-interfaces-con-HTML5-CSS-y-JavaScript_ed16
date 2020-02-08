@@ -10,7 +10,6 @@ function lanzarmoneda() {
     } else {
         console.log("Ha salido cruz");
     }
-
 }
 /*
 Diseña un algoritmo que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10.
@@ -24,7 +23,6 @@ for (i = 0; i <= 100; i++) {
     var dado1 = Math.floor(Math.random() * (7 - 1)) + 1;
     var dado2 = Math.floor(Math.random() * (7 - 1)) + 1;
 
-
     /* Comprobamos si los numeros de los dos dados suman 10 */
     if ((dado1 + dado2) === 10) {
         contador++;
@@ -33,6 +31,5 @@ for (i = 0; i <= 100; i++) {
     console.info("Tirada Nº: " + i);
     console.info(dado1 + " + " + dado2 + " = " + (dado1 + dado2));
 }
-
 /* imprimimos el resultado de las veces que suman 10 los dos dados  */
 console.info("Los 2 dados han sumado 10:  " + contador + " veces");
