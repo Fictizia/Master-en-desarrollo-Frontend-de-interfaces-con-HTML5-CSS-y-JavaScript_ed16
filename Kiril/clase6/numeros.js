@@ -25,7 +25,7 @@ for (i = 0; i <= 100; i++) {
 
     /* Comprobamos si los numeros de los dos dados suman 10 */
     if ((dado1 + dado2) === 10) {
-        contador++;
+        contador++; //Contamos las veces que se cumple que sumen 10
     }
     /* Imprimimos el número de tirada y la operacion entre el dado1 + dado2*/
     console.info("Tirada Nº: " + i);
