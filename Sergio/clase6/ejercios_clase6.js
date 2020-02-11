@@ -22,4 +22,4 @@ if (lanzamiento === 10) {
   }
 }
 
-console.log("las vces que se ha sumado 10 con los dos lados son " + iguales10);
+console.log("las veces que se ha sumado 10 con los dos lados son " + iguales10);
