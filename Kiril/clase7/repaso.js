@@ -88,7 +88,7 @@ if (confirmacion === true) {
 /* Return en funciones. 
 function suma (num1, num2) {
     var numero3 = num1 + num2;
-    return numero2;
+    return numero3;
 }
 
 var numero3Return = suma(2,3); */
