@@ -26,7 +26,7 @@ function calcular(num1, num2) {
         console.log("El número 2 es mayor que el número 1:  " + num2 + " > " + num1);
     }
 
-    console.timeEnd("Tiempo En realizar operaciones");
+    console.timeEnd("Tiempo en realizar operaciones");
     console.groupEnd();
 
 }
@@ -44,6 +44,9 @@ function seleccion() {
 
 var confirmacion = confirm("¿Quieres empezar el juego?");
 var opcion = 0;
+
+var verificacionRetun ()
+
 
 if (confirmacion === true) {
 
@@ -65,12 +68,15 @@ if (confirmacion === true) {
             alert("Introduce dos numeros: ");
             var n1 = prompt("Introduce el número 1: ");
             var n2 = prompt("Introduce el número 2: ");
-            calcular(n1, n2);
+            var n1int = parseInt(n1);
+            var n2int = parseInt(n2);
+            calcular(n1int, n2int);
             break;
 
         default:
             alert("Has seleccionado una opción que no existe!!");
-            var comp = false;
+            var verificacion = true;
+            return verificacion;
             seleccion();
     }
 
@@ -78,3 +84,11 @@ if (confirmacion === true) {
 } else {
     alert("Espero que vuelvas pronto!!!");
 }
+
+/* Return en funciones. 
+function suma (num1, num2) {
+    var numero3 = num1 + num2;
+    return numero2;
+}
+
+var numero3Return = suma(2,3); */
