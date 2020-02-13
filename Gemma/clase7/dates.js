@@ -11,7 +11,6 @@ Imprime por consola la fecha actual en un mensaje personalizado.
 
 var ahora = new Date ();
 
-var diaSemana = ahora.getDay ();
 var diaMes = ahora.getDate ();
 var mes = ahora.getMonth ();
 var year = ahora.getFullYear ();
