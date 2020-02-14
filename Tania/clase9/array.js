@@ -19,3 +19,15 @@ console.log(resultado);
 //Con forEach
 var frutas = ["melocotón", "sandía", "melón", "albaricoque", "pera"];
 frutas.forEach(element => console.log("Me gusta comer " + element));
+
+var lista = document.getElementById("lista")
+
+function addElementInList(list){
+    list.forEach(element => {
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(element));
+        lista.appendChild(li);
+    });
+}
+
+addElementInList(frutas)
