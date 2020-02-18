@@ -16,6 +16,8 @@ var oso = function (nombre, raza, procedencia, alimentacion) {
 var miOso = new oso ("Poo", "panda", "Asia", "bambú")
 miOso.detalles();
 
+//Mi oso panda se llama Poo, es de Asia y come bambú
+
 /*
 Ejercicio 2:
 Crea una clase que sea un animal y crea dos instancias de ella.
@@ -37,3 +39,5 @@ osoPanda.prototype = new oso();
 
 var miOso = new osoPanda();
 console.log("Mi oso tiene el pelaje "+miOso.pelo+" porque come "+miOso.alimentacion+". ¿Tiene el coronavirus? "+miOso.virus);
+
+//Mi oso tiene el pelaje suave porque come bambu. ¿Tiene el coronavirus? false
