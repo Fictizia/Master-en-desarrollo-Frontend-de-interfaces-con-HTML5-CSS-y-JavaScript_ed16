@@ -28,12 +28,12 @@ var oso = function () {
 };
 
 var osoPanda = function () {
-    this.alimentacion = "bambú";
+    this.alimentacion = "bambu";
     this.colorNariz = "negra";
     this.virus = false;
 };
 
 osoPanda.prototype = new oso();
 
-var miOso = new oso();
-console.log("Mi oso tiene el pelaje "+miOso.pelo);
+var miOso = new osoPanda();
+console.log("Mi oso tiene el pelaje "+miOso.pelo+" porque come "+miOso.alimentacion+". ¿Tiene el coronavirus? "+miOso.virus);
