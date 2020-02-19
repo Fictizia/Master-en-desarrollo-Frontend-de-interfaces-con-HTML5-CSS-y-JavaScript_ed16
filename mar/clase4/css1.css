@@ -54,12 +54,16 @@ body {
 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 200px;
+    width: 250px;
+    margin: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,.4);
+
 }
 
 h1 {
-    margin-top: 100px;
     padding-bottom: 20px;
     font-size: 22px;
 }
@@ -77,4 +81,5 @@ button {
     width: 60px;
     cursor: pointer;
     transform: translateX(280%);
+    border-radius: 7px;
 }
