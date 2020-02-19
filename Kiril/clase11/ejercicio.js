@@ -16,6 +16,7 @@ proceso.forEach(item => {
     let li = document.createElement("li");
     li.innerHTML = item;
     ul.appendChild(li);
-    
+    ul.setAttribute("class", "result-list");
+    li.setAttribute("class", "result-list-item");
 
 });
