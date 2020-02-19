@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*aplica a todos los before y todos los after*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.cont-principal{
+    display: block;
+    /* background: green; */
+    flex-direction: row;
+    width: 100vw; /*por defecto siempre es el 100 % pantalla*/
+    height: 100vh;
+    padding-top: 5rem;
+    
+}
+
+
+
+.titulo{
+    font-size: 8rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    font-family: 'Lacquer', sans-serif;
+}
+.sub-title{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Lacquer', sans-serif;
+}
+
+.result{
+    display: flex;
+    /* background: blanchedalmond; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-width: 912px;
+    height: auto;
+   
+   
+}
+
+@media (max-width:912px) {
+    .result{
+        display: flex;
+        /* background: red; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        
+       
+    }
+
+}
+.cont-result-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    width: 46%;
+    max-width: 912px;
+    height: auto;
+    min-height: 36rem;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+     
+
+
+    
+}
+
+
+
+
+.result-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgba(172, 255, 47, 0.557);
+    width: 100vw;
+    max-width: 95%;
+    height: 100%;
+    min-height: 36rem;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    border:solid 5px black;
+    border-radius: 5%;
+    padding-top: 40px;
+
+} 
+
+.result-list-item{ /*Con una sola clase declaramos todos los items de la lista. */
+    display: flex;
+    background: rgba(252, 2, 127, 0.728);
+    border: black solid 3px;
+    width: auto;
+    min-width: 20rem;
+    height: 3rem;
+    margin: 0.8em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
