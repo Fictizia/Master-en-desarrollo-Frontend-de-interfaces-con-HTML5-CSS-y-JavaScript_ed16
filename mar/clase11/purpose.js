@@ -6,7 +6,7 @@ let ul = document.getElementById('list1');
 list1.forEach(item => {
     let li = document.createElement("li");
     li.innerHTML = item;
-    ul2.appendChild(li);
+    ul.appendChild(li);
 })
 
 
