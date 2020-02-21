@@ -53,9 +53,21 @@ table {
 
 
 
+.logo{
+    display: block;
+    top:60rem;
+    width: 250px;
+    height: 250px;
+    position: absolute;
 
-
-
+}
+.logo1{
+   
+    top:0rem;
+    width: 250px;
+    height: 250px;
+  
+}
 
 .cont-principal{
     display: block;
@@ -64,10 +76,10 @@ table {
     width: 100vw; /*por defecto siempre es el 100 % pantalla*/
     height: 100vh;
     padding-top: 5rem;
+    /* background-color: rgb(45, 233, 28);  Lo omito, para 
+    que la funcion de cambio de color del boton funciones*/
     
 }
-
-
 
 .titulo{
     font-size: 8rem;
@@ -91,6 +103,7 @@ table {
     width: 100vw;
     min-width: 912px;
     height: auto;
+    
    
    
 }
@@ -109,12 +122,30 @@ table {
        
     }
 
+    .logo{
+        display: block;
+        top:20rem;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    
+    }
+    .logo1{
+       
+        top:20rem;
+        width: 100px;
+        height: 100px;
+      
+    }
+
+
 }
 .cont-result-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: white;
+    justify-content: center;
+    background-color: rgb(45, 233, 28);
     width: 46%;
     max-width: 912px;
     height: auto;
@@ -122,21 +153,19 @@ table {
     align-items: center;
     align-content: center;
     margin: 0 auto;
-    padding-bottom: 1rem;
-     
+    padding: 1rem;
+    border:solid 5px black;
+    border-radius: 5%;
 
 
     
 }
 
-
-
-
 .result-list{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: rgba(172, 255, 47, 0.557);
+    background: rgba(242, 98, 45, 0.954);
     width: 100vw;
     max-width: 95%;
     height: 100%;
@@ -150,9 +179,9 @@ table {
 
 } 
 
-.result-list-item{ /*Con una sola clase declaramos todos los items de la lista. */
+.result-list-itemP{ /*Con esta clase damos formatos a los item de la lista "pendiente" id=proceso */
     display: flex;
-    background: rgba(252, 2, 127, 0.728);
+    background: rgba(250, 250, 35, 0.728);
     border: black solid 3px;
     width: auto;
     min-width: 20rem;
@@ -161,5 +190,33 @@ table {
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    color:red;
+}
+
+.result-list-itemT{ /*Con esta clase damos formato a los intem de la lista "comprados" id=terminados */
+    display: flex;
+    background: rgba(243, 14, 255, 0.851);
+    border: black solid 3px;
+    width: auto;
+    min-width: 20rem;
+    height: 3rem;
+    margin: 0.8em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color:greenyellow;
+}
+
+.btn{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 8rem;
+    height: 2rem;
+    border: 0.1rem dotted black;
+    border-radius: 2rem;
+    background: rgba(243, 14, 255, 0.851);
+    color:white;
+    font-size: 0.8rem;
 }
 

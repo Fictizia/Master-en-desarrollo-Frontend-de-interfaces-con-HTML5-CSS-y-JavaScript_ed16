@@ -15,19 +15,25 @@
         3.- añadir li al ul ---- ul.uppendChild(li)
     
     )}
+        Crear dos clases css, una 'red' y otra 'green' que lo unico que hacen 
+        es cambiar el texto de color
+    
     -->
 
     <div class="cont-principal">
 
        
-            <h1 class="titulo">Lista de tareas!!</h1>
+            <h1 id="titulo" class="titulo">Lista de la compra!!</h1>
         <main class="result"> <!--class="result"-->
-          
+            <a href="#" class="logo">
+                <img src="2655083.svg" alt="carrito" class="logo1">
+            </a>
+            
             
             <section class="cont-result-list">
                 
-                <ul id="proceso" class="result-list"> <!--class="result-list"-->
-                    <h2 class="sub-title">En proceso</h2>
+                <ul id="proceso" class="result-list" > <!--class="result-list"-->
+                    <h2 class="sub-title">¡¡¡Pendiente!!!</h2>
                     <!-- <li class="result-list-item"></li> class="result-list-item
                     <li class="result-list-item"></li>
                     <li class="result-list-item"></li>
@@ -36,20 +42,19 @@
                    
                     
                 </ul>
+               
             </section>
 
             <section class="cont-result-list">
-                <ul id="terminados" class="result-list"> <!--class="result-list"-->
-                    <h2 class="sub-title">Terminadas!!!</h2>
-                    <li class="result-list-item">1</li><!--class="result-list-item-->
-                    <li class="result-list-item">2</li>
-                    <li class="result-list-item">3</li>
-                    <li class="result-list-item">4</li>
-                    <li class="result-list-item">5</li>
+                <ul id="terminados" class="result-list" > <!--class="result-list"-->
+                    <h2 class="sub-title">¡¡¡Comprados!!!</h2>
+                    <!-- <li class="result-list-item" >Item</li> --><!--class="result-list-item-->
+                   
                    
                     
                 </ul>
             </section>
+            <button onclick="cambiarFondo()" class="btn">Cambia el Fondo</button>
         </main>
 
        
