@@ -20,10 +20,8 @@ body{
 
     display: flex;
     flex-direction: column;
-    
-    
+    box-shadow: 7px 10px 29px -1px rgba(49,66,130,.3);
 
-    
 }
 h1{
 
@@ -35,7 +33,33 @@ h1{
     color: white;
    display: block;
    text-align: center;
+   position: relative;
 }
+h1::before{
+    content: "";
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%, -25%);
+
+    left: 5%;
+
+}
+h1::after{
+    content: "";
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%, -25%);
+
+    left: 95%;
+
+}
+
 .nav-listas{
     display: flex;
     justify-content: space-around;
@@ -56,7 +80,14 @@ ul li{
 }
 .lista1{
    background: cornsilk;
+
 }
 .lista2{
-    
+    background: white;
+}
+.red:hover{
+    background: coral;
+}
+.green:hover{
+    background:  greenyellow;
 }
