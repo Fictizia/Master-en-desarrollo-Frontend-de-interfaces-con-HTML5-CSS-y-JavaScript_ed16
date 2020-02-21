@@ -10,12 +10,13 @@ body{
     height: 100ch;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #fceabb 0%,#fccd4d 27%,#fbdf93 58%,#f8b500 93%);
+    background: linear-gradient(135deg, #a9e4f7 0%,#0fb4e7 100%);
 }
 .container{
     width: 70%;
     height: 70vh;
-    background: rgb(211, 203, 132);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
@@ -50,12 +51,12 @@ ul{
 ul li{
     padding: 1rem;
 }
-.lista li:hover{
+.lista1 li:hover{
     background: coral;
 }
 .lista1{
-    background: rgba(255, 255, 255, 0.616);
+   background: cornsilk;
 }
 .lista2{
-    background: rgba(255, 255, 255, 0.288);
+    
 }
