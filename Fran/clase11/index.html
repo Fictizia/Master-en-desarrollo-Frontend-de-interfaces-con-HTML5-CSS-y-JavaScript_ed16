@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- ["banana","naranja","kiwi"]
         1.- crear un li -----   let li = document.createElement("li")
         2.- añadir texto -----  li.innerHTML = element
         3.- añadir li al ul ---- ul.appendChild(li)
+
+
+        Crear 2 clases css, una 'red' y otra 'green' que lo único que hacen
+        es cambiar el texto a su correspondiente color
+
     -->
+    <h1 id="title">Title</h1>
     <ul id="lista1">
         
     </ul>
     <ul id="lista2">
 
     </ul>
-
-    <div id="miDiv">
-        <span id="miId5" class="miClase" title="cinco"></span>
-        <span id="miId4" class="miClase" title="cuatro"></span>
-        <span id="miId3" class="miClase" title="tres"></span>
-        <span id="miId2" class="miClase" title="dos"></span>
-        <span id="miId1" class="miClase" title="uno"></span>
-    </div> 
-    
+    <button onclick="cambiarFondo()">Cambia el fondo</button>
     <script type="text/javascript" src="t.js"></script>
 </body>
 </html>
