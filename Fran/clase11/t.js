@@ -48,3 +48,17 @@ function refrescarListas(){
     })
 } 
 
+
+var pepito = document.getElementById("name")
+var surname = document.getElementById("surname")
+var desc = document.getElementById("desc")
+
+function save(e){
+    e.preventDefault()
+    console.log(
+        {
+        name: pepito.value,
+        surname: surname.value,
+        desc: desc.value
+    })
+}
