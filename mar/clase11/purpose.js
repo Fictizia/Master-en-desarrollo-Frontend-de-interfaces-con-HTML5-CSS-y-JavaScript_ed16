@@ -33,19 +33,23 @@ function refrescarListas(){
 }
 
 ulpurpose.addEventListener('click', function (e) {
-    var itemSelected = e.target.innerText;
-    list2.push(itemSelected);
-    var itemClick = list1.indexOf(itemSelected);
-    list1.splice(itemClick,1);
-    refrescarListas();
+    if(e.srcElement.tagName === "LI"){
+        var itemSelected = e.target.innerText;
+        list2.push(itemSelected);
+        var itemClick = list1.indexOf(itemSelected);
+        list1.splice(itemClick,1);
+        refrescarListas();
+    }
 })
 
 ulCheck.addEventListener('click', function (e) {
+    if(e.srcElement.tagName === "LI"){
     var itemSelected = e.target.innerText;
     list1.push(itemSelected);
     var itemClick = list2.indexOf(itemSelected);
     list2.splice(itemClick,1);
     refrescarListas();
+    }
 })
 
 
