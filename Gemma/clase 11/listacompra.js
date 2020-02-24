@@ -13,6 +13,8 @@ listaFrutas.forEach(item => {
 });
 
 ul.addEventListener('click', e => {
+    if(e.target.tagName === 'LI'){;
+
     console.log(e.target.innerHTML);
     
     listaComida.push(e.target.innerText);
@@ -21,6 +23,7 @@ ul.addEventListener('click', e => {
     listaFrutas.splice(index,1);
     
     refrescarListas()
+}
 });
 
 let ul2 = document.getElementById ('lista2');
@@ -34,6 +37,7 @@ listaComida.forEach(item => {
 
 
 ul2.addEventListener('click', e => {
+    if(e.target.tagName === 'LI'){
     console.log(e.target.innerHTML);
     
     listaFrutas.push(e.target.innerText);
@@ -42,6 +46,7 @@ ul2.addEventListener('click', e => {
     listaComida.splice(index,1);
     
     refrescarListas()
+}
 });
 
 
