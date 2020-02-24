@@ -6,34 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="ejercicio.js"></script>
+   
+
 </head>
 <body>
     <div class="contenedor">
-        <div><h1>lista de la compra</h1></div>
-        <div class="lista1">
-         <h1>Lista de la compra</h1><br>
+        <div id="Mititulo">Mi titulo</div>
+        <div class="cabecera"><h1>título</h1></div>
+
+      <div class="fondolista">  
+          
+        <div class="rojo">
+         <h1>Lista de la compra</h1>
             <ul id="listafrutas">
-                <!-- <li>Platano</li>
-                <li>Pera</li>
-                <li>Fresa</li>
-                <li>Manzana</li> -->
+
             </ul>
         </div>
 
-        <div class="lista2">
-                <h1>Lista de la compra 2</h1><br>
-                   <ul id="lista2">
-                       <li>Platano</li>
-                       <li>Pera</li>
-                       <li>Fresa</li>
-                       <li>Manzana</li>
+        <div class="verde">
+                <h1>Lista de la compra 2</h1>
+                   <ul id="listafrutas2">
+                      
                    </ul>
                </div>
-
-        
- 
+      </div> 
+      <section class="form">
+         <h1>Formulario</h1>
+          <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" value="nombre"><br>
+                <label for="apellido1">apellido1:</label><br>
+                <input type="text" id="apellido1" name="apellido1" value="apellido1"><br>
+                <label for="apellido2">apellido2:</label><br>
+                <input type="text" id="apellido2" name="apellido2" value="apellido2"><br>
+                <label for="direccion">direccion:</label><br>
+                <input type="text" id="direccion" name="direccion" value="direccion"><br>
+                <label for="color">color:</label><br>
+                <input type="text" id="color" name="color" value="color"><br>
+                <input type="submit" value="enviar">
+              </form>
+               </section>
+          
+              </body>
+    
+    </div>
    
     </div>
+
+    
+
+<button onclick="cambiarFondo()">Cambia el fondo</button>
+    <script type="text/javascript" src="ejercicio.js"></script>
 </body>
 </html>
