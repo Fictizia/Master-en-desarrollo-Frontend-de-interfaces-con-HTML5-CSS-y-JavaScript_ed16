@@ -1,6 +1,6 @@
 console.log("created");
 
-let proceso = ["Platano", "Manzanas", "Kiwi", "Melocoton", "Fresas", "Pomelo"];
+let proceso = ["Platano", "Manzanas", "Kiwi", "Melocoton", "Pomelo", "Sandia", "Melon", ];
 let terminado = [];
 
 let listap = document.getElementById("proceso")
@@ -30,21 +30,29 @@ titleHTMLElement.addEventListener("click", evento =>{
 
 
 listap.addEventListener("click", evento => {
+    /* Mostramos lo que capturamos */
     console.log (evento.target);
-    
-    listat.push(evento.target.innerText);
-    posicion = listap.indexOf(evento.target.innerText);
-    listap.splice(posicion,1);
+    console.log (evento.currentTarget);
+    /* Insertamos en el array terminados el elemento, pero solo seleccionamos el innerText que es el texto*/
+    /* Con el evento target vemos que nos trae el elemento, y vemos que solo nos interesa el texto del medio */
+    terminado.push(evento.target.innerText);
+    /* Determinamos la posicion en la que tenemos que eliminar el elemento del array (proceso) */
+    posicion = proceso.indexOf(evento.target.innerText);
+    /* Eliminamos el elemento del del array (proceso)*/
+    proceso.splice(posicion, 1);
     refrescarlistas();
 
 });
 
 listat.addEventListener("click", evento => {
     console.log (evento.target);
-
-    listap.push(evento.target.innerText);
-    posicion = listap.indexOf(evento.target.innerText);
-    listat.splice(posicion, 1);
+    /* Insertamos en el array procesos el elemento, pero solo seleccionamos el innerText que es el texto*/
+    /* Con el evento target vemos que nos trae el elemento, y vemos que solo nos interesa el texto del medio */
+    proceso.push(evento.target.innerText);
+    /* Determinamos la posicion del array posicion */
+    posicion = terminado.indexOf(evento.target.innerText);
+    /* Eliminamos el elemento del array (terminado) con la posicion que hemos sacado */
+    terminado.splice(posicion, 1);
     refrescarlistas();
 
 });
@@ -55,7 +63,10 @@ refrescarlistas();
 
 /* Hacemos una funcion para poder llamarla y poder refrescar las listas las veces que quiera */
 function refrescarlistas(){ 
-    
+    /* Aqui tenemos que vaciar la lista, porque si no cada vez que entremos  se nos acumularia lo 
+    que tenemos de la otra  vez*/
+    listap.innerHTML = "" 
+    listat.innerHTML = ""
     /* ["banana", "naranja", kiwi].foreach(element => {
     )} */
 proceso.forEach(item => {
