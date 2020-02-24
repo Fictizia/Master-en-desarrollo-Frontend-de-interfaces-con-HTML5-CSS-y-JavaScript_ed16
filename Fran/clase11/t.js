@@ -53,12 +53,28 @@ var pepito = document.getElementById("name")
 var surname = document.getElementById("surname")
 var desc = document.getElementById("desc")
 
-function save(e){
-    e.preventDefault()
-    console.log(
-        {
+// Elemento p del html donde quiero pintar el dato
+const descTextElement = document.getElementById("descText")
+
+
+function save(event){
+    event.preventDefault()
+    // mi objeto con los datos del formulario
+    const data = {
         name: pepito.value,
         surname: surname.value,
         desc: desc.value
-    })
+    }
+    
+    // metemos el texto en mi etiqueta p
+    descTextElement.innerText = data.desc
 }
+
+// desc.addEventListener('input', e => console.log(e.target.value))
+
+// const descTextElement = document.getElementById("descText")
+
+// desc.addEventListener('input', e => descTextElement.innerText = e.target.value)
+
+
+
