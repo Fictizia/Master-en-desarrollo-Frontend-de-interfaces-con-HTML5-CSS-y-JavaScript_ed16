@@ -1,11 +1,15 @@
 .contenedor {
     width: 100%;
     height: 100vh;
-    background-color: rgb(9, 221, 221);
+    background-color: rgb(226, 153, 201);
 }
 
 .encabezado {
+    display: flex;
+    justify-content: center;
 
+    color: purple;
+    font-size: 4em;
 }
 
 
