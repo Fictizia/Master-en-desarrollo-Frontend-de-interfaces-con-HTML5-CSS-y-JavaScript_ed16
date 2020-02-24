@@ -1,0 +1,92 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	width: 100vw;
+	height: 100vh;
+	font-size: 16px;
+	color:rgb(64, 17, 235);
+	background-color: #ccc;
+	
+}
+
+.lprincipa{
+    font-size:8rem;
+    position: relative;
+    font-family: 'Pacifico';
+    
+    /* background-color:white; */
+    
+}
+
+
+.inputt{
+    display: block;
+    width: 300px;
+    height: 20px;
+    /* left: 50%;
+    transform: translate(-50%); */
+    margin:0 auto;
+
+}
+.inputobser{
+    display: block;
+    width: 300px;
+    height: 40px;
+    /* left: 50%;
+    transform: translate(-50%); */
+    margin:0 auto;
+    overflow: scroll;
+}
+.form{
+    position: relative;
+    display: block;
+
+    /* background-color:red; */
+}
+
+fieldset {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: xx-large;
+    text-align: center;
+    border:5px black solid;
+    
+ }
+
+.reset{
+   display: block;
+   width: 11rem;
+   height: 3rem;
+   font-family: 'Pacifico';
+    font-size: 20px ;
+   /* background: greenyellow; */
+   /* left: 50%;
+   transform: translate(-50%); */
+    top:33em;
+    color:red;
+   border-radius: 10px;
+   margin:10px auto 10px;
+}
+
+.enviar{
+    display: block;
+    width: 11rem;
+   height: 3rem;
+   color: blue;
+    font-family: 'Pacifico';
+    font-size: 20px ;
+    /* background: greenyellow; */
+    /* left: 50%;
+   transform: translate(-50%); */
+   margin:10px auto 10px;
+    top:30em;
+    border-radius: 10px;
+    
+    
+    
+    
+ }
