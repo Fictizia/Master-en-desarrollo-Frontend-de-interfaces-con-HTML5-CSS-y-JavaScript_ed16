@@ -19,9 +19,14 @@
             <form class="form">
                 <input class="input" type=text id="nameField" placeholder=Name>
                 <input class="input" type=text id="email" placeholder=email>
-                <input class="input" type=text id="country" placeholder=Country>
+                <select class="input" type=text id="country" placeholder=Country>
+                    <option>España</option>
+                    <option>Portugal</option> 
+                    <option>Francia</option> 
+                    <option>Italia</option> 
+                </select>
                 <input class="input" type=text id="username" placeholder=Username>
-                <input class="input" type=text id="key" placeholder=Password>
+                <input class="input" type=password id="key" placeholder=Password>
             </form>
             <button onclick="save(event)" >Submit</button>
             <p id="descText" class="descText">Resultados:</p>

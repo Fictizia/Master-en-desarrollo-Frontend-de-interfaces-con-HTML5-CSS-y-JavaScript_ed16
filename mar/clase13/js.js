@@ -15,7 +15,7 @@ function save(event) {
          username: username.value,
          key: key.value
       }
-descTextElement.innerText = (`Nombre del usuario: ${nameElement.value} \n\ Email: ${email.value} \n\ País: ${country.value} \n\ Username: ${username.value} \n\ Contraseña: ${key.value}`);
+descTextElement.innerText = (`Resultados: \n\ Nombre del usuario: ${nameElement.value} \n\ Email: ${email.value} \n\ País: ${country.value} \n\ Username: ${username.value} \n\ Contraseña: ${key.value}`);
 }
 
 
