@@ -45,7 +45,7 @@ function seleccion() {
 var confirmacion = confirm("¿Quieres empezar el juego?");
 var opcion = 0;
 
-var verificacionRetun ()
+var verificacionRetun()
 
 
 if (confirmacion === true) {

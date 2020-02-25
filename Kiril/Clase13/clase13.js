@@ -2,7 +2,7 @@ console.log("created");
 
 
 
- /* Selecciono el elemento de cada input y lo almaceno en una variable */
+/* Selecciono el elemento de cada input y lo almaceno en una variable */
 let nombre = document.getElementById("field1");
 let raza = document.getElementById("field2");
 let color = document.getElementById("field3");
@@ -15,39 +15,46 @@ const descmascota = document.getElementById("mascota")
 
 
 
-function valores (event){ 
-/* event, significa que cuando hacemos click en el html llamamos a este event, y 
-le digo preventDefault que lo que hace es quitar el comportamiento del submit 
-por defecto (actualiar y recoger los datos) */
-console.log (event);
-/* Muestro el evento entero */
-event.preventDefault();
-/* Muestro los campos que quiero solo  */
-console.log (nombre.value);
-console.log (raza.value);
-console.log (color.value);
-console.log (edad.value);
-console.log (observaciones.value);
-/* Creo un objeto con los datos que capturo del formulario.  */
-let mascota = {
-    nombre: nombre.value,
-    raza: raza.value,
-    color: color.value,
-    edad: edad.value,
-    observaciones: observaciones.value,
-    
-    
-    /* mostrar : function(){
-        alert("El nombre de tu mascota es: " + this.mascota[0]);
-    } */
+function valores(event) {
+    /* event, significa que cuando hacemos click en el html llamamos a este event, y 
+    le digo preventDefault que lo que hace es quitar el comportamiento del submit 
+    por defecto (actualiar y recoger los datos) */
+    console.log(event);
+    /* Muestro el evento entero */
+    event.preventDefault();
+    /* Muestro los campos que quiero solo  */
+    console.log(nombre.value);
+    console.log(raza.value);
+    console.log(color.value);
+    console.log(edad.value);
+    console.log(observaciones.value);
+    /* Creo un objeto con los datos que capturo del formulario.  */
+    let mascota = {
+        nombre: nombre.value,
+        raza: raza.value,
+        color: color.value,
+        edad: edad.value,
+        observaciones: observaciones.value,
 
-};
-descmascota.innerText = mascota.nombre;
 
-/* Pinto el objeto entero */
-console.log (mascota);
-/* Pinto solo la edad */
-console.log (mascota.edad);
+        /* mostrar : function(){
+            alert("El nombre de tu mascota es: " + this.mascota[0]);
+        } */
+
+    };
+    descmascota.innerText = mascota.nombre;
+    /* Pinto el objeto entero */
+    console.log(mascota);
+    /* Pinto solo la edad */
+    console.log(mascota.edad);
 
 }
 
+let lip = document.createElement("li");
+/* 2. Añadir texto ---- li.innerHTML = element */
+lip.innerHTML = item;
+/* 3.- Asignamos las clases, para dar formato al ul y li*/
+//listap.setAttribute("class", "result-list");
+//lip.setAttribute("class", "result-list-itemP");
+/* 4.- Añadir li al ul ---- ul.uppendChild(li) */
+listap.appendChild(lip);
