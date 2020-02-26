@@ -40,7 +40,8 @@ Teoría | Recursos
 [Clase 10](teoria/dia10.md) | [Clase 10](recursos/dia10.md)
 [Clase 11](teoria/dia11.md) | [Clase 11](recursos/dia11.md)
 [Clase 12](teoria/dia12.md) | [Clase 12](recursos/dia12.md)
-[Clase 13](teoria/dia13.md) | Clase 13
+[Clase 13](teoria/dia13.md) | [Clase 13]()
+[Clase 14](teoria/dia14.md) | [Clase 14](recursos/dia14.md)
 
 Temario
 =================
