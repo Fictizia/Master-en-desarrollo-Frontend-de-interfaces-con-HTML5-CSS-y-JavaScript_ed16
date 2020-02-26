@@ -62,6 +62,9 @@ function valores(event) {
 }
 
 
+
+
+/* -------------------------------Funciones------------------------------------------------------ */
 function titulodatos() {
     var node = document.createElement("h2");
     var textnode = document.createTextNode("Los datos de la mascota son");
@@ -70,13 +73,10 @@ function titulodatos() {
 
 };
 
-
-
-
 /* La funcion insertar para crear la lista con los datos del formulario, 
 la tengo que pasar el valor que quiero que pinte */
 function insertar(item) {
-
+    //descmascota.innerHTML="";
     var node = document.createElement("LI"); // Create a <li> node
     var textnode = document.createTextNode(item); // Create a text node
     node.appendChild(textnode); // Append the text to <li>
@@ -96,3 +96,4 @@ function cambiarFondo() {
     resumen_mascota.style.backgroundColor = color;
 
 }
+
