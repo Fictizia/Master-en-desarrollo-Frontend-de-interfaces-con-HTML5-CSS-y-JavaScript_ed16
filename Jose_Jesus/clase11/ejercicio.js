@@ -43,9 +43,22 @@ function refrescarlistas(){
     }) 
 }
 
+var nombre = document.getElementById("name")
+var apellido1 = document.getElementById("apellido1")
+var apellido2 = document.getElementById("apellido2")
+var direccion = document.getElementById("direccion")
+var color = document.getElementById("color")
+
+const descTextElemnt = document.getElementById("desctext")
+
+function save (event){
+    event.preventDefault()
+    const data = {
 
 
 
+    }
+}
     
 
 
