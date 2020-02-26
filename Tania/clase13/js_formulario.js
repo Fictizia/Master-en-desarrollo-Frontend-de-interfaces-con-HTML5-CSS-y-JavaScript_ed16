@@ -3,7 +3,7 @@ const surname = document.getElementById("surname");
 const date = document.getElementById("date");
 const email = document.getElementById("email");
 
-const etiquetahtml = document.getElementById("xxxxxx")
+const miparrafo = document.getElementById("miparrafo")
 
 function save(event){
     event.preventDefault()
@@ -14,5 +14,5 @@ function save(event){
         email: email.value,
     }
 
-    etiquetahtml.innerText = data.name
+    miparrafo.innerText = data.name
 }
