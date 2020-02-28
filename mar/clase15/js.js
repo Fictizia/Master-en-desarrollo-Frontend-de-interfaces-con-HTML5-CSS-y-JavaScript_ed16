@@ -15,3 +15,12 @@ function insertarElems(results) {
     })
   
 }
+
+
+//img
+
+images.forEach(item => {
+    const img = document.createElement("img")
+    img.setAttribute("src", item)
+    document.body.appendChild(img)
+})
