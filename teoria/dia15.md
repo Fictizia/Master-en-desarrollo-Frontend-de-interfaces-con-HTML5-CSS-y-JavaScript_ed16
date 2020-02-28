@@ -40,8 +40,6 @@
 
 ### AJAX
 
-![Ajax comparación](http://gemsres.com/story/feb07/338111/fig1.jpg)
-
 *Con Jquery*
 
 ```javascript
