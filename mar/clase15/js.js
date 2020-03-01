@@ -3,7 +3,6 @@ fetch("https://pokeapi.co/api/v2/pokemon")
             .then( result => insertarElems(result.results) )
 
 const miLista = document.getElementById('list_pokemon');
-const miLista2 = document.getElementById('list_pokemon-like');
 
 function insertarElems(results) {
     miLista.innerHTML = "";
@@ -24,3 +23,5 @@ images.forEach(item => {
     img.setAttribute("src", item)
     document.body.appendChild(img)
 })
+
+
